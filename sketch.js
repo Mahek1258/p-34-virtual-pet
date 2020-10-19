@@ -30,7 +30,7 @@ function draw() {
   //food
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS);
-    dog.addImage(happyDogImg);
+    dog.addImage(happyDogImg,200,200);
   }
   drawSprites();
 
